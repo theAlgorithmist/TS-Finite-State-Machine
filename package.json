@@ -1,0 +1,26 @@
+{
+  "name": "FiniteStateMachine",
+  "version": "1.0.0",
+  "description": "Reactive, Data-Driven Finite State Machine",
+  "keywords": [
+    "Typescript",
+    "Programming",
+    "DFA"
+  ],
+  "author": "Jim Armstrong (www.algorithmist.net)",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "1.6.0",
+    "gulp-tsc": "^1.2.4",
+    "typescript": "2.4.2",
+    "rxjs": "5.5.6"
+  },
+  "dependencies": {
+    "@types/chai": "^3.4.35",
+    "@types/mocha": "^2.2.39",
+    "chai": "^3.5.0",
+    "gulp-mocha": "^4.3.1",
+    "mocha": "^3.2.0"
+  }
+}
