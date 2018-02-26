@@ -55,7 +55,7 @@ A FSM consists of a number of named states, and transitions from those states.  
 
 The set of inputs to a FSM is called an _alphabet_.
 
-The _FiniteStateMachine_ class in this distribution has two possibly differentiating features from other implementations (particularly in Java, JS, and TS).  One is that listening for specific state transitions is not performed by callback functions applied to those states.  Instead, the machine is reactive.  One or more (RxJs) _Observers_ may subcribe to the machine and receive updates on all transitions that includes _from_ and _to_ states as well as relevant data.
+The _FiniteStateMachine_ class in this distribution has two possibly differentiating features from other implementations (particularly in Java, JS, and TS).  One is that listening for specific state transitions is not performed by callback functions applied to those states.  Instead, the machine is reactive.  One or more (RxJs) _Observers_ may subscribe to the machine and receive updates on all transitions that includes _from_ and _to_ states as well as relevant data.
 
 
 ### Public API
@@ -237,7 +237,7 @@ Transition functions defined in data will be called with arguments that strictly
 1. Only the function body need be defined in a string.
 2. The variable names _data_ and _state_ are arguments.  Use them as such.
 3. Transition functions must be pure.
-4. The self-referential pointer (this) is bound to the parent context due to constructor invocation, which is the FiniteStateMachine class.  Do not use _this_ inside the function body.
+4. The self-referential pointer (this) is bound to the global context due to Function constructor invocation.  Do not use _this_ inside the function body.
 5. Do not reference any variables that are not defined in the function body as we can not be 'loose' regarding execution context of these functions.
 
 In a typical application, the above _Object_ description is input external to the application.  Implementation of the machine reduces to
