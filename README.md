@@ -272,7 +272,7 @@ Apache 2.0
 
 [//]: # (kudos http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-[The Algorithmist]: <http://algorithmist.net>
+[The Algorithmist]: <https://www.linkedin.com/in/jimarmstrong>
 
 [online descriptions of a Finite State Machine]: <https://brilliant.org/wiki/finite-state-machines>
 
