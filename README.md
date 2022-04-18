@@ -25,6 +25,8 @@ Requires ES6 _Map_ and _Set_
 
 Version: 1.0
 
+NOTE:  This repo is obsolete.  The FSM has been upgraded and is now a [part of the AMYR library](https://github.com/theAlgorithmist/AMYR)
+
 
 ## Installation
 
